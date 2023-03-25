@@ -1,0 +1,10 @@
+New Nodes Include - 
+* Fractal Triangle
+* Hexagon Grid
+* Random Hash
+* Stars/Glitter Effect
+* Vanishing Grid
+
+Each Node has subgraph and cginc code
+
+In the example folder you can find shaders on how to use them
