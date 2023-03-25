@@ -8,9 +8,9 @@ float3 palette(float d)
 
 float2 rotate(float2 frag, float amount)
 {
-    float cos = cos(amount);
-    float sin = sin(amount);
-    float mat = float2x2(cos, sin, -sin, cos);
+    float c = cos(amount);
+    float s = sin(amount);
+    float mat = float2x2(c, s, -s, c);
     return frag * mat;
 }
 
