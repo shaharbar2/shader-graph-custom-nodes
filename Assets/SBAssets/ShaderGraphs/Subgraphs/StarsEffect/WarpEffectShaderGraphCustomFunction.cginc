@@ -8,7 +8,7 @@ void WarpEffect_float(float2 fragCoord, float2 uv, float time, float3 color1, fl
     uv = (-uv.xy + 2.0 * fragCoord ) / uv.y;
 
     uv.x += sin(time) * .3;
-    float si = sin(time*1.5); // ...Squiffy rotation matrix!
+    float si = sin(time*1.5);
     float co = cos(time);
     float2x2 mat = float2x2(co, si, -si, co);
     uv *= mul(uv,mat);

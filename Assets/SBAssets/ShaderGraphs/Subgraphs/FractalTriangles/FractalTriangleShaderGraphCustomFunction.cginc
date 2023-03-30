@@ -51,6 +51,7 @@ float4 GetColor(float3 In1, float3 In2, float time)
         col += palette(length(p) * .1) / (400. * (d));
         t += d;
     }
+    
     return float4(col, 1. / (d * 100.));
 }
 
